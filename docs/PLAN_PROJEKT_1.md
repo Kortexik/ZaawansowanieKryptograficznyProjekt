@@ -26,13 +26,13 @@ Mierzymy, ile prawidłowych haseł znalazło się w słowniku. Nie twierdzimy, �
 
 Zakładamy sześć tygodni pracy. Etapy następują po sobie, a zadania Konrada i Kacpra w danym etapie można wykonywać równolegle.
 
-| Etap | Termin | Konrad | Kacper | Wynik etapu |
-|---|---|---|---|---|
-| M1. Przygotowanie | Tydzień 1 | Pobiera i porządkuje dane. Przygotowuje podział danych, tokenizację, model zagrożeń i zasady oceny. | Przygotowuje środowisko i model LSTM. Sprawdza, czy może korzystać z danych od Konrada. | Dane są gotowe, a model może je wczytać. |
-| M2. Pierwszy przebieg | Tydzień 2 | Przygotowuje słownik bazowy i obliczanie trafień. Sprawdza ocenę na małym przykładzie. | Trenuje model na małej próbce i generuje pierwsze hasła. | Całość działa od przygotowanych danych do wyniku oceny. |
-| M3. Trening | Tydzień 3 | Sprawdza poprawność eksperymentu i analizuje wyniki walidacji. | Przeprowadza główny trening i wybiera model na podstawie walidacji. | Model jest gotowy do generowania słownika. |
-| M4. Generowanie i ocena | Tygodnie 4 i 5 | Ocenia trafienia na zbiorze testowym, przygotowuje wykresy i wnioski. | Generuje 100 tys. haseł, przygotowuje demonstrację i sprawdza obliczenia Konrada. | Są słownik, wyniki i porównanie z celem 15%. |
-| M5. Raport i obrona | Tydzień 6 | Opisuje dane, model zagrożeń, ocenę, wyniki i ograniczenia. | Opisuje model, trening i generowanie. Przygotowuje pokaz działania. | Raport jest kompletny, demonstracja działa, obaj potrafią wyjaśnić projekt. |
+| Etap | Konrad | Kacper | Wynik etapu |
+|---|---|---|---|
+| M1. Przygotowanie | Pobiera i porządkuje dane. Przygotowuje podział danych, tokenizację, model zagrożeń i zasady oceny. | Przygotowuje środowisko i model LSTM. Sprawdza, czy może korzystać z danych od Konrada. | Dane są gotowe, a model może je wczytać. |
+| M2. Pierwszy przebieg | Przygotowuje słownik bazowy i obliczanie trafień. Sprawdza ocenę na małym przykładzie. | Trenuje model na małej próbce i generuje pierwsze hasła. | Całość działa od przygotowanych danych do wyniku oceny. |
+| M3. Trening | Sprawdza poprawność eksperymentu i analizuje wyniki walidacji. | Przeprowadza główny trening i wybiera model na podstawie walidacji. | Model jest gotowy do generowania słownika. |
+| M4. Generowanie i ocena | Ocenia trafienia na zbiorze testowym, przygotowuje wykresy i wnioski. | Generuje 100 tys. haseł, przygotowuje demonstrację i sprawdza obliczenia Konrada. | Są słownik, wyniki i porównanie z celem 15%. |
+| M5. Raport i obrona | Opisuje dane, model zagrożeń, ocenę, wyniki i ograniczenia. | Opisuje model, trening i generowanie. Przygotowuje pokaz działania. | Raport jest kompletny, demonstracja działa, obaj potrafią wyjaśnić projekt. |
 
 ## Współpraca
 
