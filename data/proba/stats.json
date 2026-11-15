@@ -1,0 +1,28 @@
+{
+  "records_read": 10000,
+  "accepted_records": 9997,
+  "rejected": {
+    "empty": 1,
+    "length": 0,
+    "characters": 2
+  },
+  "sha256_of_read_bytes": "906cf174f24d8dafad719faf4ff2a8b8f81011e7f669d93599dbed2087a93395",
+  "unique_passwords": 9997,
+  "duplicate_records": 0,
+  "source": "/Users/konradku/Private/ZTKProjekt/data/rockyou.txt",
+  "seed": 42,
+  "limit": 10000,
+  "max_passwords": 1000000,
+  "selected_passwords": 9997,
+  "excluded_by_sample_limit": 0,
+  "min_length": 1,
+  "max_length": 64,
+  "alphabet": "printable ASCII, codepoints 32..126",
+  "split": {
+    "train": 7997,
+    "val": 999,
+    "test": 1001
+  },
+  "baseline_size": 7997,
+  "hash_scheme": "SHA-256(salt_bytes + password_ascii), random 16-byte salt per target"
+}
